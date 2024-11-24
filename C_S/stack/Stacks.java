@@ -1,17 +1,16 @@
-package C_S;
 
 public class Stacks {
-    int[] stk;
+    char[] stk;
     int top = -1; // Top should be initialized to -1 when the stack is empty.
     int size;
 
     Stacks(int size) {
-        stk = new int[size];
+        stk = new char[size];
         this.size = size;
     }
 
     // Push method to add elements to the stack.
-    void push(int data) {
+    void push(char data) {
         if (isFull()) {
             System.out.println("Stack overflow");
         } else {
@@ -20,11 +19,12 @@ public class Stacks {
     }
 
     // Pop method to remove elements from the stack.
-    int pop() {
+    char pop() {
         if (isEmpty()) {
             System.out.println("Stack underflow");
-            return -9999; // Return a sentinel value to indicate an error
+            return "e";
         }
+
         return stk[top--]; // Return the top element and decrement top
     }
 

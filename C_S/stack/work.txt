@@ -1,0 +1,2 @@
+    write  an algorith to convert infix expression to prefix and vice versa
+    write an algorth to evaluate postfix expression
