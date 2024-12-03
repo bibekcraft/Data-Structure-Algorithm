@@ -1,0 +1,2 @@
+wap an algorithm oto implement stacks using two queues
+wap an algorithm to implement two stack using queues
