@@ -15,6 +15,7 @@ public class doublyLinkedList {
     void insert(int data) {
         Node newnode = new Node(data);
         if (head == null) {
+            Node tail;
             head = tail = newnode;
         } else {
             tail.next = newnode; ///left side position   and right side represent value in case of single "="
